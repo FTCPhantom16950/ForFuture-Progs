@@ -3,7 +3,7 @@
         SYSTEM "https://resources.jetbrains.com/writerside/1.0/product-profile.dtd">
 
 <instance-profile id="in"
-                 name="Учебник для будущих прогеров фантома"
+                 name="Гайд для будущих прогеров фантома"
                   start-page="Вступление.md">
 
     <toc-element topic="Вступление.md"/>

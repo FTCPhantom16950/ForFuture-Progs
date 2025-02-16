@@ -6,10 +6,6 @@
         <accepts>page.html</accepts>
     </rule>
     -->
-    <rule id="6a336ace">
-        <description>Created after removal of "фис" from Учебник для будущих прогеров фантома</description>
-        <accepts>фис.html</accepts>
-    </rule>
     <rule id="192f6bf5">
         <description>Created after removal of "Начало" from Учебник для будущих прогеров фантома</description>
         <accepts>starter.html</accepts>

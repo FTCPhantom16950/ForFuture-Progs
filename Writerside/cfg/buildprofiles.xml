@@ -1,13 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
 <!DOCTYPE buildprofiles SYSTEM "https://resources.jetbrains.com/writerside/1.0/build-profiles.dtd">
 <buildprofiles xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/build-profiles.xsd"
                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 
-    <variables></variables>
     <build-profile instance="in">
         <variables>
+            <primary-color>
+                #8054DE
+            </primary-color>
+            <color-preset>
+                contrast
+            </color-preset>
+            <link-color>
+                #EBBE37
+            </link-color>
+            <custom-favicons>favicon.png</custom-favicons>
             <noindex-content>true</noindex-content>
+            <download-title>Get project of this site</download-title>
+            <download-page> https://github.com/FTCPhantom16950/ForFuture-Progs </download-page>
+            <showDownloadButton>true</showDownloadButton>
         </variables>
+        <footer>
+            <link href="https://t.me/phantom16950">
+                Telegramm channel
+            </link>
+            <link href="http://phantom16950.myddns.me:8096">
+                File saver
+            </link>
+        </footer>
     </build-profile>
 
 </buildprofiles>

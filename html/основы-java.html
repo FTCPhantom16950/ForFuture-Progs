@@ -1,0 +1,79 @@
+<!DOCTYPE html SYSTEM "about:legacy-compat">
+<html lang="en-US" data-preset="contrast" data-primary-color="#307FFF"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta charset="UTF-8"><meta name="robots" content="noindex"><meta name="built-on" content="2025-02-16T04:57:20.4871137"><title>Основы Java | Гайд для будущих прогеров фантома</title><script type="application/json" id="virtual-toc-data">[{"id":"-4ksag4_5","level":0,"title":"Объявление переменных","anchor":"#-4ksag4_5"},{"id":"-4ksag4_6","level":0,"title":"Объявление классов","anchor":"#-4ksag4_6"},{"id":"-4ksag4_7","level":0,"title":"Объявление методов","anchor":"#-4ksag4_7"},{"id":"-4ksag4_8","level":0,"title":"Создание конструктора класса","anchor":"#-4ksag4_8"},{"id":"-4ksag4_9","level":0,"title":"Модификаторы","anchor":"#-4ksag4_9"}]</script><script type="application/json" id="topic-shortcuts"></script><link href="https://resources.jetbrains.com/writerside/apidoc/6.10.0-b575/app.css" rel="stylesheet"><meta name="msapplication-TileColor" content="#000000"><link rel="apple-touch-icon" sizes="180x180" href="https://jetbrains.com/apple-touch-icon.png"><link rel="icon" type="image/png" sizes="32x32" href="https://jetbrains.com/favicon-32x32.png"><link rel="icon" type="image/png" sizes="16x16" href="https://jetbrains.com/favicon-16x16.png"><meta name="msapplication-TileImage" content="https://resources.jetbrains.com/storage/ui/favicons/mstile-144x144.png"><meta name="msapplication-square70x70logo" content="https://resources.jetbrains.com/storage/ui/favicons/mstile-70x70.png"><meta name="msapplication-square150x150logo" content="https://resources.jetbrains.com/storage/ui/favicons/mstile-150x150.png"><meta name="msapplication-wide310x150logo" content="https://resources.jetbrains.com/storage/ui/favicons/mstile-310x150.png"><meta name="msapplication-square310x310logo" content="https://resources.jetbrains.com/storage/ui/favicons/mstile-310x310.png"><meta name="image" content=""><!-- Open Graph --><meta property="og:title" content="Основы Java | Гайд для будущих прогеров фантома"><meta property="og:description" content=""><meta property="og:image" content=""><meta property="og:site_name" content="Гайд для будущих прогеров фантома Help"><meta property="og:type" content="website"><meta property="og:locale" content="en_US"><meta property="og:url" content="writerside-documentation/основы-java.html"><!-- End Open Graph --><!-- Twitter Card --><meta name="twitter:card" content="summary_large_image"><meta name="twitter:site" content=""><meta name="twitter:title" content="Основы Java | Гайд для будущих прогеров фантома"><meta name="twitter:description" content=""><meta name="twitter:creator" content=""><meta name="twitter:image:src" content=""><!-- End Twitter Card --><!-- Schema.org WebPage --><script type="application/ld+json">{
+    "@context": "http://schema.org",
+    "@type": "WebPage",
+    "@id": "writerside-documentation/основы-java.html#webpage",
+    "url": "writerside-documentation/основы-java.html",
+    "name": "Основы Java | Гайд для будущих прогеров фантома",
+    "description": "",
+    "image": "",
+    "inLanguage":"en-US"
+}</script><!-- End Schema.org --><!-- Schema.org WebSite --><script type="application/ld+json">{
+    "@type": "WebSite",
+    "@id": "writerside-documentation/#website",
+    "url": "writerside-documentation/",
+    "name": "Гайд для будущих прогеров фантома Help"
+}</script><!-- End Schema.org --></head><body data-id="Основы-Java" data-main-title="Основы Java" data-article-props="{&quot;seeAlsoStyle&quot;:&quot;links&quot;}" data-template="article" data-breadcrumbs=""><div class="wrapper"><main class="panel _main"><header class="panel__header"><div class="container"><h3>Гайд для будущих прогеров фантома  Help</h3><div class="panel-trigger"></div></div></header><section class="panel__content"><div class="container"><article class="article" data-shortcut-switcher="inactive"><h1 data-toc="Основы-Java" id="Основы-Java.md">Основы Java</h1><p id="-4ksag4_3"><span class="control" id="-4ksag4_10">В этом разделе мы будем рассматривать основы Java такие, как объявления переменных, классов, методов и прочее</span></p><p id="-4ksag4_4">Как можно заметить в будущем все строки(за исключением объявления методов, переменных и классов) оканчиваются на ;</p><section class="chapter"><h2 id="-4ksag4_5" data-toc="-4ksag4_5">Объявление переменных</h2><p id="-4ksag4_11">Давайте рассмотрим несколько различных типов переменных которыми мы обладаем</p><div class="tabs" id="-4ksag4_12" data-group="os" data-anchors="[Double,Int,Object,String]"><div class="tabs__content" data-gtm="tab" id="Int" data-sync-tabs="int" data-title="Целое число"><div class="code-block" data-lang="java" data-title="Java">
+            int i = 0;
+            long l = 0;
+        </div></div><div class="tabs__content" data-gtm="tab" id="Double" data-sync-tabs="double" data-title="Вещественное число"><p><span id="-4ksag4_23"><sub class="subscript">Вещественные числа - числа с дробной частью</sub></span></p><div class="code-block" data-lang="java" data-title="Java">
+            double d = 0;
+            float f = 0f;
+        </div></div><div class="tabs__content" data-gtm="tab" id="String" data-sync-tabs="string" data-title="Строка"><div class="code-block" data-lang="java" data-title="Java">
+            String str = 0;
+        </div></div><div class="tabs__content" data-gtm="tab" id="Object" data-sync-tabs="obj" data-title="Объект"><div class="code-block" data-lang="java" data-title="Java">
+            Object obj = new Object();
+        </div></div></div><p id="-4ksag4_13">Как можно заметить все они называются либо 1 маленькой буквой, либо словом начинающегося с маленькой буквы. Это принято всеми программистами на Java, все переменные пишутся в стандарте <code class="code" id="-4ksag4_27">camelCase</code>.</p><p id="-4ksag4_14">Также на фоне других переменных выделяется Object, это как не сложно перевести объект, тоесть на его месте может быть любой класс. Например:</p><div class="code-block" data-lang="java">
+            Mechanism mechanism = new Mechanism();
+</div><p id="-4ksag4_16">Также на общем фоне выделяется тип float требующий f в конце числа для его определения</p><p id="-4ksag4_17">Единственная разница между int/long и double/float это объем хранимых в них данных. Однако я обычно использую исключительно int и double</p></section><section class="chapter"><h2 id="-4ksag4_6" data-toc="-4ksag4_6">Объявление классов</h2><p id="-4ksag4_28">Но где же мы будем хранить наши переменные. А хранить мы их будем внутри классов. Класс это можно сказать основной объект Java. Он также является файлом в большинстве случаев</p><div class="code-block" data-lang="java">
+            class MyFirstClass{
+            }
+</div><p id="-4ksag4_30">Вот так объявляются ваши классы. На месте <code class="code" id="-4ksag4_36">MyFirstClass</code> может быть любое название, какое захотите.</p><p id="-4ksag4_31">Также классы можно создавать внутри классов и тогда один будет наследоваться от другого.</p><div class="code-block" data-lang="java">
+            class MyFirstClass{
+                class MySecondClass{
+                }
+            }
+</div><p id="-4ksag4_33">И при создании мы можем увидеть, что они будут писаться через точку. Вообще в Java через точку будет прописываться любая последовательность, как класс в классе, так переменная в классе, так и метод в классе. Например, покажу как будет вызываться <code class="code" id="-4ksag4_37">MySecondClass</code></p><div class="code-block" data-lang="java">
+            MyFirstClass.MySecondClass secondClass = new MyFirstClass.MySecondClass();
+</div><p id="-4ksag4_35">Также как вы могли заметить классы начинаются с заглавной буквы. Да, у программистов на Java принято называть классы в соответствии с <code class="code" id="-4ksag4_38">СamelCase</code>.</p></section><section class="chapter"><h2 id="-4ksag4_7" data-toc="-4ksag4_7">Объявление методов</h2><p id="-4ksag4_39">Однако если мы напишем наш код в классе, то он не запустится, и даже начнет высвечивать ошибку, т.к. исполняемый код пишется исключительно в методах. То есть переменные мы можем объявлять в теле класса, а вот исполнять код нет.</p><div class="code-block" data-lang="java">
+    class MyFirstClass{
+            void per(){
+        }
+            int per2(int i){
+            return i;
+        }
+    }
+</div><p id="-4ksag4_41">Как мы можем заметить у методов также есть свои типы, они описывают что метод вернет, как видно метод типа int возвращает int через return. Это позволяет нам приравнивать методы и переменные, и в такой ситуации переменная получит возвращаемое значение метода.</p><p id="-4ksag4_42">Также можно заметить о существовании особого типа void, он не требует чтобы метод что-либо возвращал.</p></section><section class="chapter"><h2 id="-4ksag4_8" data-toc="-4ksag4_8">Создание конструктора класса</h2><p id="-4ksag4_43">Предствим, что нам при создании объекта нашего класса нужно из одного в другой передать переменную. Для этого у нас существует 3 способа</p><ul class="list _bullet" id="-4ksag4_44"><li class="list__item" id="-4ksag4_59"><p>Создание конструктора класса</p></li><li class="list__item" id="-4ksag4_60"><p>Создание getter-а и setter-а</p></li><li class="list__item" id="-4ksag4_61"><p>Использование &quot;модификатора&quot; static</p></li></ul><p id="-4ksag4_45">Рассмотрим все 3</p><p id="-4ksag4_46">Первый позволяет нам присваивать переменную из одного класса другом при создании объекта одного в другом. Также он нам позволяет исполнять код при создании. Да звучит сложно, однако на практике легко.</p><div class="code-block" data-lang="java">
+            class MyFirstClass{
+                public MyFirstClass(int i){
+                    this.i = i
+                }
+            }
+            class MyThirdClass{
+                int i = 100;
+                MyFirstClass firstClass = new MyFirstClass(i);
+            }
+</div><p id="-4ksag4_48">В итоге мы получаем что i = 100 в обоих классах</p><p id="-4ksag4_49">А теперь давайте разберемся подробнее, что означает каждое слово</p><p id="-4ksag4_50">Как мы заметили наш первый &quot;модификатор&quot; public, о нем поговорим позже.</p><p id="-4ksag4_51"><code class="code" id="-4ksag4_62">this.i = i;</code> строчка нам говорит о том что мы берем внешний i и присваиваем его внутреннему.</p><p id="-4ksag4_52"><code class="code" id="-4ksag4_63">new</code> показывает что мы создаем новую инстанцию нашего класса.</p><p id="-4ksag4_53">Второй вариант - создание getter-а и setter-а, то есть создание 2 специальных методов для этого. В Android Studio существуют специальные кнопки для этого: alt+insert.</p><div class="code-block" data-lang="java">
+            class MyFirstClass{
+                int i;
+                public void geti(){
+                    return i;
+                }
+                public void seti(int i){
+                   this.i = i;
+                }
+            }
+            class MyThirdClass{
+                int i = 100;
+                MyFirstClass firstClass = new MyFirstClass();
+                firstClass.seti(i);
+            }   
+</div><p id="-4ksag4_55">Как мы видим метод seti() практически аналогичен конструктору. Но для чего же нам geti(). Мы его используем для считывания нашего i в другом классе</p><p id="-4ksag4_56">Теперь перейдем к последнему варианту - &quot;модификатор&quot; static</p><div class="code-block" data-lang="java">
+            class MyFirstClass{
+                public static int i;
+            }
+            class MyThirdClass{
+                int i = 100;
+                MyFirstClass.i = i;
+            }   
+</div><p id="-4ksag4_58">Как можно заметить это самый короткий вариант, но самый небезопасный, так как он изменяет значения везде где используется i. static устанавливает переменной или методу быть статичной(вау как удивительно). Для нас это говорит о том что везде будет одна и та же переменная/метод и если он где-то переписывается, то он так же сделает везде.</p></section><section class="chapter"><h2 id="-4ksag4_9" data-toc="-4ksag4_9">Модификаторы</h2><p id="-4ksag4_64">Как я упоминал выше существуют различные &quot;модификаторы&quot; рассмотрим их дальше.</p><section class="chapter"><h3 id="-4ksag4_65" data-toc="-4ksag4_65">Модификаторы доступа</h3><p id="-4ksag4_66">Они подсказывают программе насколько далеко видны та или иная переменная/класс/метод. Ниже будет табличка как это работает и какие бывают</p><div class="table-wrapper"><table class="left_header wide _layout-fixed" id="-4ksag4_67"><thead><tr class="ijRowHead" id="-4ksag4_68"><th id="-4ksag4_73" width="120"><p>Модификатор</p></th><th id="-4ksag4_74" width="120"><p>Модификатор</p></th><th id="-4ksag4_75"><p>В классе</p></th><th id="-4ksag4_76"><p>В пакете</p></th><th id="-4ksag4_77"><p>В подклассе</p></th><th id="-4ksag4_78"><p>Глобально</p></th></tr></thead><tbody><tr id="-4ksag4_69"><th id="-4ksag4_79"><p>Public</p></th><td id="-4ksag4_80"><p>+</p></td><td id="-4ksag4_81"><p>+</p></td><td id="-4ksag4_82"><p>+</p></td><td id="-4ksag4_83"><p>+</p></td></tr><tr id="-4ksag4_70"><th id="-4ksag4_84"><p>Protected</p></th><td id="-4ksag4_85"><p>+</p></td><td id="-4ksag4_86"><p>+</p></td><td id="-4ksag4_87"><p>+</p></td><td id="-4ksag4_88"></td></tr><tr id="-4ksag4_71"><th id="-4ksag4_89"><p>Default</p></th><td id="-4ksag4_90"><p>+</p></td><td id="-4ksag4_91"><p>+</p></td><td id="-4ksag4_92"></td><td id="-4ksag4_93"></td></tr><tr id="-4ksag4_72"><th id="-4ksag4_94"><p>Private</p></th><td id="-4ksag4_95"><p>+</p></td><td id="-4ksag4_96"></td><td id="-4ksag4_97"></td><td id="-4ksag4_98"></td></tr></tbody></table></div></section></section><div class="last-modified">Last modified: 16 февраля 2025</div><div data-feedback-placeholder="true"></div><div class="navigation-links _bottom"><a href="вступление.html" class="navigation-links__prev">Вступление</a><a href="структура-нашего-проекта-и-правила.html" class="navigation-links__next">Структура нашего проекта и правила</a></div></article><div id="disqus_thread"></div></div></section></main></div><script src="https://resources.jetbrains.com/writerside/apidoc/6.10.0-b575/app.js"></script></body></html>
